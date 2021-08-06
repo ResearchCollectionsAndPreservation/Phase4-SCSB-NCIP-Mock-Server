@@ -16,13 +16,13 @@ docker build -t phase4-scsb-ncip-mock-server .
 ```
 Run the container (example)
 ```
-docker run --name phase4-scsb-ncip-mock-server -p 9104:8080 -d phase4-scsb-ncip-mock-server
+docker run --name phase4-scsb-ncip-mock-server -p 9103:8080 -d phase4-scsb-ncip-mock-server
 ```
 
 ## Endpoints
 
-#### All NCIP requests should use the endpoint (POST): http://localhost:9104/ncip  (you can adjust the port in the build file)
+#### All NCIP requests should use the endpoint (POST): http://localhost:9103/ncip  (you can adjust the port in the build file)
 
 #### The following GET endpoints can be used for pulling data out/ testing
 ##### Patrons
-http://localhost:9104/api/patrons/
+http://localhost:9103/api/patrons/

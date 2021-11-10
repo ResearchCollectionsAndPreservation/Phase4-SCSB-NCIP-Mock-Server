@@ -1,6 +1,6 @@
 # NCIP-Mock-Server
 
-Receives and responds to NCIP requests
+  A NCIP mock  server imitates a real server by providing realistic responses to requests. Dynamic response can make your mock API more realistic. Responses can be static or dynamic, and simulate the data the real API would return, matching the schema with data types, objects, and arrays. The data can be randomly generated based on the type of field and requirements you determine. For getting the request and sending the response it uses RESTful API Services. 
 
 ## Software Required
 
